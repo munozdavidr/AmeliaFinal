@@ -1,0 +1,11 @@
+// $mapRedes:(facebook:red, instragram:blue, twitter:yellow);
+
+$estilo: (color:#21eb64, tamF: $tam-fuente);
+
+.btn-primary {
+    background-color: map-get($estilo, color );
+}
+
+h2 {
+    color: map-get($estilo, color ) ;
+}

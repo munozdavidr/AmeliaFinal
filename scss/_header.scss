@@ -1,0 +1,49 @@
+header {
+    position: sticky;
+    top: 0;
+    grid-area: header;
+
+    h1 {
+        color: #56f616;
+        font-size: $tam-fuente + 3rem;
+        text-align: center;
+        margin-left: 1rem;
+        padding: 10px;
+      }
+}
+
+.even {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navpos {
+  display: flex;
+  // flex-direction: column;
+  align-items: center;
+  // align-content: space-between;
+  // margin-right: 5rem;
+}
+
+.card-body {
+    background-color: white;
+    margin: 0.5rem;
+  }
+
+.btn-primary {
+    margin: 0.5rem;
+    margin-left: 55rem;
+}
+
+.dropdown-menu { 
+
+  .show {
+  margin: 2rem;
+  background-color: none;
+}
+}
+
+.dropdown-item {
+  margin: 1rem;
+}
